@@ -7,8 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
     
-<h1>TESTTEST</h1>
+<h1 id="text">Variable Font</h1>
+<button id="animationBtn">Toggle animation</button>
+
+
+<script>
+
+const button = document.getElementById("animationBtn");
+const text = document.getElementById("text");
+
+// Voeg een event listener toe aan de button
+button.addEventListener("click", () => {
+
+  text.classList.toggle("animate");
+});
+
+</script>
 
 </body>
 </html>
