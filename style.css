@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Nunito sans";
+    src: url(/fonts/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format('truetype');
+}
+
+p {
+    font-family: 'Nunito Sans';
+}  
+
